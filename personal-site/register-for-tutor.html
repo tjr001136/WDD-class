@@ -20,5 +20,52 @@
         <a href="contactus.html">Contact Us</a>
       </nav>
     </header>
+    <h1>Information</h1>
+    <fieldset name="basic">
+      <legend>Personal Information</legend>
+      Name: <input type="text" name="name" /><br />
+      Age: <input type="number" name="age" min="0" /><br />
+      Gender: <input type="radio" name="gender" value="m" checked /> Male
+      <input type="radio" name="gender" value="f" checked /> Female
+    </fieldset>
+    <br />
+    <fieldset name="interest">
+      <legend>interested Subject(More than 1)</legend>
+      <input type="checkbox" name="interest" value="1" />Languages
+      <input type="checkbox" name="interest" value="2" />Math
+      <input type="checkbox" name="interest" value="3" />Science
+      <input type="checkbox" name="interest" value="4" />Art
+    </fieldset>
+    <br />
+    <fieldset name="score">
+      <legend>Answer the following questions</legend>
+      How many hours can you tutor per week? 1
+      <input type="range" min="1" max="20" /> 20<br />
+      Do you have experience of teaching? Yes
+      <input type="checkbox" value="Yes" /> No
+      <input type="checkbox" value="No" /><br />
+      Please share your experience of teaching.
+      <input type="text" /><br />
+    </fieldset>
+    <br />
+    Additional Informations
+    <br />
+    <textarea cols="100" rows="5" placeholder="Type">Type</textarea>
+    <br />
+    <input type="button" value="Confirm" />
+    <input type="reset" value="Cancel" />
+    <footer>
+      <p>Study Pick &copy; 2022 - Shawn Nam</p>
+      <p><a href="site-plan.html">Site Plan</a></p>
+      <p><a href="contactus.html">Contact Us</a></p>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/facebook.png" alt="fb icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="instagram icon" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
